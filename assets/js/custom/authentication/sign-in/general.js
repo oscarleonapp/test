@@ -64,10 +64,10 @@ var KTSigninGeneral = (function () {
                           });
                       }, 2e3))
                     : Swal.fire({
-                        text: "Lo sentimos mucho, pero existen errores que debe corregir para iniciar sesión",
+                        text: "Hemos encontrado errores. Por favor, corrígelos para iniciar sesión",
                         icon: "error",
                         buttonsStyling: !1,
-                        confirmButtonText: "Entiendo, los corregiré",
+                        confirmButtonText: "Entiendo",
                         customClass: { confirmButton: "btn btn-primary" },
                       });
                 });
